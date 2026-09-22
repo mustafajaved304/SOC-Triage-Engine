@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  soc-platform:
+    build: .
+    container_name: soc_triage_engine
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: always

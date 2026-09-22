@@ -1,0 +1,54 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>SOC Triage Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; background: #0f172a; color: #f8fafc; padding: 20px; }
+            h1 { color: #38bdf8; }
+            table { width: 100%; border-collapse: collapse; margin-top: 20px; background: #1e293b; }
+            th, td { padding: 12px; border: 1px solid #334155; text-align: left; }
+            th { background: #0284c7; color: white; }
+            tr:nth-child(even) { background: #0f172a; }
+        </style>
+    </head>
+    <body>
+        <h1>SOC Incident Triage Report</h1>
+        <p><strong>Status:</strong> Automated Alert Summary Generated</p>
+        <table>
+            <tr>
+                <th>Timestamp</th>
+                <th>Alert Title</th>
+                <th>Severity</th>
+                <th>Details</th>
+                <th>MITRE ATT&CK</th>
+            </tr>
+            
+        <tr>
+            <td>2026-09-23 01:12:08</td>
+            <td style="color:#ff4d4d; font-weight:bold;">POSSIBLE BRUTE FORCE</td>
+            <td style="color:#ff4d4d; font-weight:bold;">CRITICAL</td>
+            <td>3+ Failed Logons from 185.220.101.5</td>
+            <td><code>T1110</code></td>
+        </tr>
+        
+        <tr>
+            <td>2026-09-23 01:15:30</td>
+            <td style="color:#ffaa00; font-weight:bold;">ENCODED POWERSHELL EXECUTION</td>
+            <td style="color:#ffaa00; font-weight:bold;">HIGH</td>
+            <td>User Noman ran bypassed PowerShell</td>
+            <td><code>T1059.001</code></td>
+        </tr>
+        
+        <tr>
+            <td>2026-09-23 01:20:00</td>
+            <td style="color:#ff4d4d; font-weight:bold;">NEW ACCOUNT CREATED</td>
+            <td style="color:#ff4d4d; font-weight:bold;">CRITICAL</td>
+            <td>New User 'backdoor_admin' added</td>
+            <td><code>T1136.001</code></td>
+        </tr>
+        
+        </table>
+    </body>
+    </html>
+    

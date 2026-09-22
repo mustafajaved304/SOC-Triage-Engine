@@ -1,0 +1,5 @@
+Sep 23 01:12:02 Workstation-01 Security: Event 4625 - Failed Logon attempt by Administrator from IP 185.220.101.5
+Sep 23 01:12:05 Workstation-01 Security: Event 4625 - Failed Logon attempt by Administrator from IP 185.220.101.5
+Sep 23 01:12:08 Workstation-01 Security: Event 4625 - Failed Logon attempt by Administrator from IP 185.220.101.5
+Sep 23 01:15:30 Workstation-01 Security: Event 4688 - Process Executed powershell.exe -ExecutionPolicy Bypass -enc SQBFAFgA... by user Noman
+Sep 23 01:20:00 Workstation-01 Security: Event 4720 - User Account Created: backdoor_admin by SYSTEM
