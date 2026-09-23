@@ -6,7 +6,6 @@ An enterprise-grade, hybrid **Security Operations Center (SOC) Triage Engine, Th
 
 ## 👨‍💻 System Architect
 * **Developer:** Mustafa Mehmood Javed
-* **Specialization:** BS Cyber Security
 * **Deployment Target:** Hybrid On-Prem & Cloud SIEM/SOAR Ecosystems
 
 ---
